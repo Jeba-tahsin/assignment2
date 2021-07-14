@@ -1,0 +1,81 @@
+/* ----copa america---- */
+body{
+     font-family: 'Poppins', sans-serif;
+}
+.copa-america{
+    background-color:#2D25A0 ;
+    display: flex;
+}
+.copa-2021{
+    margin-top:207px;
+    margin-left: 156px;
+    margin-bottom: 240px;
+}
+h1{
+    font-weight: bold;
+    font-size: 64px;
+    color: #FFFFFF;
+    margin: 0;
+}
+h3{
+    font-weight: bold; 
+    color: #525257;
+}
+.copa-img{
+    width: 556.01px;
+    height: 438px;
+    margin-top: 190px;
+    margin-left: 80px;
+}
+.color{
+    background-color: #E02C6D;
+    width: 120px;
+    color: honeydew;
+    padding: 5px;
+}
+.arrow-color{
+    color: honeydew;
+}
+/* --------players details-------- */
+.players-details{
+    padding: 15px;
+}
+.players{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-row-gap: 30px;
+    grid-column-gap: 30px;
+    background-color:#FFFFFF ; 
+    padding: 100px 100px 100px 100px;
+    
+}
+.player{
+    padding: 10px;
+    box-shadow: 0px 0px 40px lightgray;
+}
+.player img{
+    width: 300px;
+    height: 250px;
+    padding: 15px;
+}
+/* ----highlights---- */
+.all-highlights{
+    width: 466px;
+    height: 300px;
+    margin-left: 120px;
+    box-shadow: 0px 0px 40px lightgray;
+    padding: 20px;
+}
+.match img{
+    width: 467px;
+    height: 327px;
+    margin-left: 110px;
+}
+.highlights{
+    display: flex;
+    background-color: #FFFFFF ;
+    : black;
+}
+.font-color{
+    color: black;
+}
