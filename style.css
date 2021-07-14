@@ -79,3 +79,20 @@ h3{
 .font-color{
     color: black;
 }
+/* --------footer--------- */
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.icon{
+    display: flex; 
+    padding: 20px;
+    color:#B2B2B2;
+}
+.footer img{
+    width: 483.87px;
+    height: 213px;
+    margin-top: 70px;
+}
