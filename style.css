@@ -11,12 +11,17 @@ body{
     margin-left: 156px;
     margin-bottom: 240px;
 }
+.copa-2021:hover{
+    transform: scale(1.3);
+    background-color: rgba(255, 255, 224, 0.123);
+}
 h1{
     font-weight: bold;
     font-size: 64px;
     color: #FFFFFF;
     margin: 0;
 }
+
 h3{
     font-weight: bold; 
     color: #525257;
@@ -26,6 +31,9 @@ h3{
     height: 438px;
     margin-top: 190px;
     margin-left: 80px;
+}
+.copa-img:hover{
+    transform: rotate(30deg) scale(1.2);
 }
 .color{
     background-color: #E02C6D;
