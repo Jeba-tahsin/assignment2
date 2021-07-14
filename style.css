@@ -1,6 +1,11 @@
 /* ----copa america---- */
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
      font-family: 'Poppins', sans-serif;
+     margin: 0;
 }
 .copa-america{
     background-color:#2D25A0 ;
@@ -116,12 +121,61 @@ h3{
     margin-top: 70px;
 }
 /* ------media queries------ */
-@media only screen and (max-width:650px){
+@media only screen and (max-width:688px){
     .copa-america{
         width:100%;
+        display: block;
+        margin: 0;
+        padding: 0;
     }
-    .players, .highlights, .match{
+    .copa-2021{
+        grid-template-columns:repeat(1,1fr) ;
+    }
+    h1{
+        font-weight: bold;
+        font-size: 30px;
+        color: #FFFFFF;
+        margin: 0;
+    }
+    .copa-img{
+        width: 100%;
+        height: 238px;
+        margin: 0;
+        padding: 0;
+    }
+    .players{
         grid-template-columns: repeat(1, 1fr);
-
+        padding: 0;
+        margin: 0;
     }
+    .highlights{
+        width: 100%;
+        display: block;
+        margin: 0;
+        padding: 0;
+    }
+    .all-highlights{
+        width: 100%;
+        height: 500px;
+        box-shadow: 0px 0px 40px lightgray;
+        margin: 0;
+        padding: 0;
+    }
+    .match img{
+        width: 100%;
+        height: 327px;
+        margin: 0;
+        padding: 0;
+    }
+    .footer img{
+        width: 100%;
+        height: 213px;
+        margin-top: 70px;
+    }
+    .leage{
+        box-shadow: 0px 0px 40px lightgray;
+        margin: 0;
+        border-radius: 10px;
+        text-align: center;
+
 }
